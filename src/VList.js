@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { List, AutoSizer, CellMeasurer, CellMeasurerCache, ArrowKeyStepper } from 'react-virtualized'
-import 'react-virtualized/styles.css'; // only needs to be imported once
+// import 'react-virtualized/styles.css'; // only needs to be imported once
 import ListItem from './ListItem';
 
 class VList extends Component {
