@@ -1,9 +1,12 @@
-I have created this repo to demonstrate following issues that I found in library react-virtualized 
+I have created this repo to demonstrate following issues that I found in library react-virtualized.
 I have filed those issues and made a PR to fix them.
 
 Filed issues:
-1) Large list items are center aligned instead of top aligned during keyboard navigation #1263
-issue url- https://github.com/bvaughn/react-virtualized/issues/1263
+
+1] Large list items are center aligned instead of top aligned during keyboard navigation #1263
+
+Issue url- https://github.com/bvaughn/react-virtualized/issues/1263
+
 PR - https://github.com/bvaughn/react-virtualized/pull/1264
 
 Requesting a minor improvement
@@ -14,7 +17,7 @@ When arrow key stepper is being used along with virtualized list, and you click 
 
 (Keeping scrollToAlignment = 'start' does solve this problem but overall behavior of list keyboard navigation is weird since instead of highlight moving up and down, highlighted item is always fixed to the top of the list)
 
-**In short** ,
+**In short**,
 instead of this 
 ![huge_item_wrong](https://user-images.githubusercontent.com/25122531/48127498-e4285900-e2a9-11e8-8fa2-445e6cfa77bd.gif)
 
@@ -39,8 +42,10 @@ https://github.com/OmkarRajam/react_virtualized_pr
 I have added a PR that solves this issue.
 
 
-2) Slight scroll up using mouse wheel makes highlighted list item to force scroll into view
-issue url- https://github.com/bvaughn/react-virtualized/issues/1265
+2] Slight scroll up using mouse wheel makes highlighted list item to force scroll into view
+
+Issue url- https://github.com/bvaughn/react-virtualized/issues/1265
+
 PR - https://github.com/bvaughn/react-virtualized/pull/1266
 
 **What's the issue:**
